@@ -91,6 +91,22 @@ namespace Chapter4_Constructs
         {
             int[][] jaggedArray = new int[5][]; //Array of five different arrays
 
+            //Create the jagged array
+            for (int i = 0; i < jaggedArray.Length; i++)
+            {
+                jaggedArray[i] = new int[i + 7];
+            }
+
+            //print each row with default set to zero
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < jaggedArray[i].Length; j++)
+                {
+                    Console.Write(jaggedArray[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
         }
     }
 }
