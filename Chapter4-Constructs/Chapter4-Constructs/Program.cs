@@ -11,8 +11,14 @@ class Program
         //Arrays.RectangularMultidimensionalArray();
         //Arrays.JaggedMultidimensionalArray();
 
-        var addResult = Methods.Add(1, 2);
-        Console.WriteLine(addResult);
+        //var addResult = Methods.Add(1, 2);
+        //Console.WriteLine(addResult);
+
+        //Methods.AddUsingOutputParameter(1, 2, out int ans);
+        //Console.WriteLine(ans);
+
+        //Methods.MultipleOuts(out int a, out string b, out bool c);
+        //Console.Write("{0} {1} {2}", a, b, c);
 
     }
 
