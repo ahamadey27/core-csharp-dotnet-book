@@ -87,5 +87,10 @@ namespace Chapter4_Constructs
         }
 
         //Multidimensional arrays - Jagged
+        public static void JaggedMultidimensionalArray()
+        {
+            int[][] jaggedArray = new int[5][]; //Array of five different arrays
+
+        }
     }
 }
