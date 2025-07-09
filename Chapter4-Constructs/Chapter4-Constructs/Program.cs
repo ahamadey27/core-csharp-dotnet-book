@@ -5,7 +5,8 @@ class Program
     static void Main(string[] args)
     {
         //Arrays.SimpleArrays();
-        Arrays.ArrayInitialization();
+        //Arrays.ArrayInitialization();
+        Arrays.ImplicitlyTypedArrays();
 
 
     }

@@ -35,5 +35,17 @@ namespace Chapter4_Constructs
                 Console.WriteLine(strArray);
             }
         }
+
+        public static void ImplicitlyTypedArrays()
+        {
+            var a = new[] { 1, 2, 5, 10 };
+            var b = new[] { "h", "k" };
+            var c = new[] { false, true, true };
+
+            foreach (var array1 in a)
+            {
+                Console.WriteLine(array1);
+            }
+        }
     }
 }
