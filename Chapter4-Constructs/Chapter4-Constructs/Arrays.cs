@@ -57,5 +57,35 @@ namespace Chapter4_Constructs
                 Console.WriteLine(i);
             }
         }
+
+        //Multidimensional arrays - Jagged
+        public static void RectangularMultidimensionalArray()
+        {
+            int[,] myMatrix;
+            myMatrix = new int[3, 4];
+
+            //populate 3x4 array
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    myMatrix[i, j] = i * j;
+                }
+
+            }
+
+            //Print 3x4 array
+            for (int i = 0; i < myMatrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < myMatrix.GetLength(1); j++)
+                {
+                    Console.Write(myMatrix[i, j] + "\t");       
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+        }
+
+        //Multidimensional arrays - Jagged
     }
 }

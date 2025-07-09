@@ -7,7 +7,8 @@ class Program
         //Arrays.SimpleArrays();
         //Arrays.ArrayInitialization();
         //Arrays.ImplicitlyTypedArrays();
-        Arrays.ArrayOfObjects();
+        //Arrays.ArrayOfObjects();
+        Arrays.RectangularMultidimensionalArray();
 
 
 
