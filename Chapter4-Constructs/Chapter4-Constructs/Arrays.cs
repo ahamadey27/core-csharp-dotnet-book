@@ -21,5 +21,19 @@ namespace Chapter4_Constructs
                 Console.WriteLine(myInt); 
             }
         }
+
+        public static void ArrayInitialization()
+        {
+            string[] stringArray = new string[] { "one", "two", "three" };
+            Console.WriteLine("stringArray has a length of {0}", stringArray.Length);
+
+            bool[] boolArray = new bool[] { false, true, false, true };
+            Console.WriteLine("boolArray has a length of {0}", boolArray.Length);
+
+            foreach (string strArray in stringArray)
+            {
+                Console.WriteLine(strArray);
+            }
+        }
     }
 }

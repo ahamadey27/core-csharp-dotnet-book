@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Arrays.SimpleArrays();
+        //Arrays.SimpleArrays();
+        Arrays.ArrayInitialization();
 
 
     }
