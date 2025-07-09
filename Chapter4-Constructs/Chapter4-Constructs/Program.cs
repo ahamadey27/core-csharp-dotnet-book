@@ -9,9 +9,10 @@ class Program
         //Arrays.ImplicitlyTypedArrays();
         //Arrays.ArrayOfObjects();
         //Arrays.RectangularMultidimensionalArray();
-        Arrays.JaggedMultidimensionalArray();
+        //Arrays.JaggedMultidimensionalArray();
 
-
+        var addResult = Methods.Add(1, 2);
+        Console.WriteLine(addResult);
 
     }
 

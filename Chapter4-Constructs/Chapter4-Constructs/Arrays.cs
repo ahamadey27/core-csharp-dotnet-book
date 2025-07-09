@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Chapter4_Constructs
 {
     public class Arrays
@@ -18,7 +19,7 @@ namespace Chapter4_Constructs
             //Print value
             foreach (int myInt in myInts)
             {
-                Console.WriteLine(myInt); 
+                Console.WriteLine(myInt);
             }
         }
 
@@ -79,7 +80,7 @@ namespace Chapter4_Constructs
             {
                 for (int j = 0; j < myMatrix.GetLength(1); j++)
                 {
-                    Console.Write(myMatrix[i, j] + "\t");       
+                    Console.Write(myMatrix[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
