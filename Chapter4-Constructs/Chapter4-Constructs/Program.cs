@@ -6,7 +6,9 @@ class Program
     {
         //Arrays.SimpleArrays();
         //Arrays.ArrayInitialization();
-        Arrays.ImplicitlyTypedArrays();
+        //Arrays.ImplicitlyTypedArrays();
+        Arrays.ArrayOfObjects();
+
 
 
     }
