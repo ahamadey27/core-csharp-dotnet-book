@@ -20,6 +20,10 @@ class Program
         //Methods.MultipleOuts(out int a, out string b, out bool c);
         //Console.Write("{0} {1} {2}", a, b, c);
 
+        double average;
+        average = Methods.CalculatorAverage(4.0, 5.4, 6.8, 12.45);
+        Console.WriteLine($"Average of data is {average}");
+
     }
 
 }
