@@ -41,6 +41,16 @@ namespace Chapter4_Constructs
             }
             return (sum / values.Length);
         }
-       
+
+        //Enter optional parameters
+        public static void EnterOptionalParameters(string message, string owner = "alex") //define parameter to make optional
+        {
+            Console.WriteLine($"Error: {message}");
+            Console.WriteLine($"Owner of error: {owner}");
+        }
+
+
+
+
     }
 }
