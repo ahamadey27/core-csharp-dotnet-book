@@ -30,7 +30,7 @@ class Program
         //Console.WriteLine(AddOperations.Add(8999999999999999, 99999999));
         //Console.WriteLine(AddOperations.Add(45.7, 35.7));
 
-        
+        Methods.CheckForNullData("bill");
 
     }
 

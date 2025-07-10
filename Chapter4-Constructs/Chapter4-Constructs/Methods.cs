@@ -49,6 +49,15 @@ namespace Chapter4_Constructs
             Console.WriteLine($"Owner of error: {owner}");
         }
 
+        //Check parameters for null
+        public static void CheckForNullData(string message, string owner = "alex")
+        {
+            ArgumentNullException.ThrowIfNull(message);
+            Console.WriteLine($"Error: {message}");
+            Console.WriteLine($"Owner of error: {owner}");
+
+        }
+
 
 
 
