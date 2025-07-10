@@ -24,7 +24,14 @@ class Program
         //average = Methods.CalculatorAverage(4.0, 5.4, 6.8, 12.45);
         //Console.WriteLine($"Average of data is {average}");
 
-        Methods.EnterOptionalParameters("oh no");
+        //Methods.EnterOptionalParameters("oh no");
+
+        //Console.WriteLine(AddOperations.Add(10, 10));
+        //Console.WriteLine(AddOperations.Add(8999999999999999, 99999999));
+        //Console.WriteLine(AddOperations.Add(45.7, 35.7));
+
+        
+
     }
 
 }
