@@ -24,6 +24,23 @@ namespace Chapter4_Constructs
             b = "hellp";
             c = false;
         }
+
+        //Using params modifier
+        //Return average of some number of parameters
+        public static double CalculatorAverage(params double[] values)//params allows variable number of identically typed parameters 
+        {
+            Console.WriteLine("You sent me {0} doubles.", values.Length);
+            double sum = 0;
+            if (values.Length == 0)
+            {
+                return sum;
+            }
+            for (int i = 0; i < values.Length; i++)
+            {
+                sum += values[i];
+            }
+            return (sum / values.Length);
+        }
        
     }
 }
