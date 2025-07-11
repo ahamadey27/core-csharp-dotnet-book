@@ -32,6 +32,14 @@ class Program
 
         //Methods.CheckForNullData("bill");
 
+        //Make EmpTypeEnum variable
+        //Enums.EmpTypeEnum emp = Enums.EmpTypeEnum.Contractor;
+        //Enums.AskForBonus(emp);
+
+        //Return string name of enum value
+        Enums.EmpTypeEnum emp = Enums.EmpTypeEnum.Contractor;
+        Console.WriteLine($"emp is a {emp.ToString()}");
+
     }
 
 }
